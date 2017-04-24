@@ -6,6 +6,7 @@ using UnityEngine;
 public class WorldSync : MonoBehaviour
 {
 
+
     public CircleCollider2D circle;
     public Material worldRendererMaterial;
 	

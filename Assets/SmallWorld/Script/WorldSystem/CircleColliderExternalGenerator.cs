@@ -7,6 +7,8 @@ public class CircleColliderExternalGenerator : MonoBehaviour
     public float radius = 1;
     public int points = 32;
 
+    public CircleCollider2D circle;
+
 	// Use this for initialization
 	void OnEnable ()
 	{
@@ -18,6 +20,10 @@ public class CircleColliderExternalGenerator : MonoBehaviour
 	    }
 
 	    edge.points = edgePoints;
-	    Destroy(this);
 	}
+
+    void Update()
+    {
+        this.transform.localScale = Vector3.one * circle.radius;
+    }
 }

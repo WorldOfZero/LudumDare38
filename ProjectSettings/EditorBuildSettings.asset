@@ -4,4 +4,24 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/SmallWorld/Scene/LevelSelect.unity
+  - enabled: 1
+    path: Assets/SmallWorld/Scene/TestWorld.unity
+  - enabled: 1
+    path: Assets/SmallWorld/Scene/Scene2.unity
+  - enabled: 1
+    path: Assets/SmallWorld/Scene/Levels/Level1.unity
+  - enabled: 1
+    path: Assets/SmallWorld/Scene/Levels/Level2.unity
+  - enabled: 1
+    path: Assets/SmallWorld/Scene/Levels/Level3.unity
+  - enabled: 1
+    path: Assets/SmallWorld/Scene/Levels/Level4.unity
+  - enabled: 1
+    path: Assets/SmallWorld/Scene/Levels/Level5.unity
+  - enabled: 1
+    path: Assets/SmallWorld/Scene/Levels/Level6.unity
+  - enabled: 1
+    path: Assets/SmallWorld/Scene/Levels/Level7.unity

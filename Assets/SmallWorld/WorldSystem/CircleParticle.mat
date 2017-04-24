@@ -6,8 +6,8 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: WorldMaterial
-  m_Shader: {fileID: 4800000, guid: a06285753cc65344e8062231dd509ddf, type: 3}
+  m_Name: CircleParticle
+  m_Shader: {fileID: 203, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: _EMISSION
   m_LightmapFlags: 1
   m_CustomRenderQueue: -1
@@ -48,13 +48,7 @@ Material:
     - first:
         name: _MainTex
       second:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - first:
-        name: _Mask
-      second:
-        m_Texture: {fileID: 8400000, guid: 108aa23c409a58d49bd8525b5472a7ba, type: 2}
+        m_Texture: {fileID: 2800000, guid: 10c18ece08abd7f45b2a31bef6fd4fa9, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - first:
@@ -73,18 +67,6 @@ Material:
         name: _ParallaxMap
       second:
         m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - first:
-        name: _World1
-      second:
-        m_Texture: {fileID: 8400000, guid: d25085e426ea4384f9608717d1ddd5be, type: 2}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - first:
-        name: _World2
-      second:
-        m_Texture: {fileID: 8400000, guid: c20079d530dc71942ad46319c41bc60f, type: 2}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
@@ -110,7 +92,7 @@ Material:
         name: _GlossyReflections
       second: 1
     - first:
-        name: _MaskRadius
+        name: _InvFade
       second: 1
     - first:
         name: _Metallic
@@ -147,5 +129,5 @@ Material:
         name: _EmissionColor
       second: {r: 0, g: 0, b: 0, a: 1}
     - first:
-        name: _MaskPosition
-      second: {r: 0, g: 3, b: 0, a: 0}
+        name: _TintColor
+      second: {r: 1, g: 1, b: 1, a: 0.5}
